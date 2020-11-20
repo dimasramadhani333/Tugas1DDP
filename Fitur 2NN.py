@@ -12,7 +12,6 @@ def nimfungsi():
             avg = 0
             semsat = eval(input("Semester berapa anda sekarang? "))
             if semsat > 1 and semsat < 9:
-                # pengulangan = 0
                 for pengulangan in range(1, semsat):
                     ip = eval(input("Masukkan IP Semester " + str(pengulangan) + ": "))
                     avg = avg + ip
